@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1EF559471F56B5650027EFCB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EF559461F56B5650027EFCB /* main.m */; };
-		1EF5594A1F56B5650027EFCB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EF559491F56B5650027EFCB /* AppDelegate.m */; };
 		1EF5594D1F56B5650027EFCB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EF5594C1F56B5650027EFCB /* ViewController.m */; };
 		1EF559501F56B5650027EFCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EF5594E1F56B5650027EFCB /* Main.storyboard */; };
 		1EF559521F56B5650027EFCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EF559511F56B5650027EFCB /* Assets.xcassets */; };
 		1EF559551F56B5650027EFCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EF559531F56B5650027EFCB /* LaunchScreen.storyboard */; };
 		1EF559601F56B5650027EFCB /* CodingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EF5595F1F56B5650027EFCB /* CodingTests.m */; };
 		1EF5596B1F56B5650027EFCB /* CodingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EF5596A1F56B5650027EFCB /* CodingUITests.m */; };
+		1EF5597E1F56B5A50027EFCB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EF5597A1F56B5A50027EFCB /* AppDelegate.m */; };
+		1EF559801F56B5A50027EFCB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EF5597D1F56B5A50027EFCB /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,21 +36,21 @@
 
 /* Begin PBXFileReference section */
 		1EF559421F56B5650027EFCB /* Coding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coding.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1EF559461F56B5650027EFCB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1EF559481F56B5650027EFCB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		1EF559491F56B5650027EFCB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1EF5594B1F56B5650027EFCB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		1EF5594C1F56B5650027EFCB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1EF5594F1F56B5650027EFCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1EF559511F56B5650027EFCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1EF559541F56B5650027EFCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		1EF559561F56B5650027EFCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1EF5595B1F56B5650027EFCB /* CodingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EF5595F1F56B5650027EFCB /* CodingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CodingTests.m; sourceTree = "<group>"; };
 		1EF559611F56B5650027EFCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1EF559661F56B5650027EFCB /* CodingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EF5596A1F56B5650027EFCB /* CodingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CodingUITests.m; sourceTree = "<group>"; };
 		1EF5596C1F56B5650027EFCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EF559791F56B5A50027EFCB /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1EF5597A1F56B5A50027EFCB /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1EF5597D1F56B5A50027EFCB /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1EF559831F56B6040027EFCB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Coding/Info.plist; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +101,11 @@
 		1EF559441F56B5650027EFCB /* Coding */ = {
 			isa = PBXGroup;
 			children = (
-				1EF559481F56B5650027EFCB /* AppDelegate.h */,
-				1EF559491F56B5650027EFCB /* AppDelegate.m */,
+				1EF559781F56B5A50027EFCB /* Delegate */,
+				1EF5597B1F56B5A50027EFCB /* Other */,
 				1EF5594B1F56B5650027EFCB /* ViewController.h */,
 				1EF5594C1F56B5650027EFCB /* ViewController.m */,
-				1EF5594E1F56B5650027EFCB /* Main.storyboard */,
 				1EF559511F56B5650027EFCB /* Assets.xcassets */,
-				1EF559531F56B5650027EFCB /* LaunchScreen.storyboard */,
-				1EF559561F56B5650027EFCB /* Info.plist */,
 				1EF559451F56B5650027EFCB /* Supporting Files */,
 			);
 			path = Coding;
@@ -117,7 +114,6 @@
 		1EF559451F56B5650027EFCB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				1EF559461F56B5650027EFCB /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -138,6 +134,26 @@
 				1EF5596C1F56B5650027EFCB /* Info.plist */,
 			);
 			path = CodingUITests;
+			sourceTree = "<group>";
+		};
+		1EF559781F56B5A50027EFCB /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				1EF559791F56B5A50027EFCB /* AppDelegate.h */,
+				1EF5597A1F56B5A50027EFCB /* AppDelegate.m */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		1EF5597B1F56B5A50027EFCB /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				1EF559531F56B5650027EFCB /* LaunchScreen.storyboard */,
+				1EF5594E1F56B5650027EFCB /* Main.storyboard */,
+				1EF5597D1F56B5A50027EFCB /* main.m */,
+				1EF559831F56B6040027EFCB /* Info.plist */,
+			);
+			path = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,9 +292,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EF5597E1F56B5A50027EFCB /* AppDelegate.m in Sources */,
+				1EF559801F56B5A50027EFCB /* main.m in Sources */,
 				1EF5594D1F56B5650027EFCB /* ViewController.m in Sources */,
-				1EF5594A1F56B5650027EFCB /* AppDelegate.m in Sources */,
-				1EF559471F56B5650027EFCB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,6 +336,7 @@
 				1EF5594F1F56B5650027EFCB /* Base */,
 			);
 			name = Main.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		1EF559531F56B5650027EFCB /* LaunchScreen.storyboard */ = {
@@ -328,6 +345,7 @@
 				1EF559541F56B5650027EFCB /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -516,6 +534,7 @@
 				1EF559711F56B5650027EFCB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1EF559721F56B5650027EFCB /* Build configuration list for PBXNativeTarget "CodingTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +543,7 @@
 				1EF559741F56B5650027EFCB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1EF559751F56B5650027EFCB /* Build configuration list for PBXNativeTarget "CodingUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +552,7 @@
 				1EF559771F56B5650027EFCB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
